@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
+import PageTemplate from './components/PageTemplate';
 
 
 class App extends Component {
     render() {
         return (
-            <div>
-                일정 관리
-            </div>
+            <PageTemplate>Hi!</PageTemplate>
+            
         )
     }
 }
